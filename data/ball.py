@@ -29,7 +29,7 @@ class Ball:
         self.gutter.sound.set_volume(.1)
         
     def get_random_float(self):
-        '''get float for velocity of ball on starting direction'''
+        '''   get float for velocity of ball on starting direction'''
         while True:
             num = random.uniform(-1.0, 1.0)
             if num > -.5 and num < .5:
